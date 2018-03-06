@@ -1,0 +1,161 @@
+body {
+    background-color: ;
+    text-align: center;
+    line-height: 1.65;
+}
+
+h1 {
+    font-family: 'Open Sans Condensed', sans-serif;
+    background-color: white;
+    padding-top: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+
+}
+
+h2 {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+h3 {
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+
+p  {
+    font-family: 'Open Sans Condensed', sans-serif;
+    background-color: white;
+    display: flex;
+    padding-top: 10px;
+    padding-bottom:30px;
+    margin-left: 15%;
+    margin-right: 15%;
+
+}
+
+.list {
+    font-family: 'Open Sans Condensed', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
+
+}
+
+.main-content {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.img {
+    border: 2px black;
+    border-radius: 15px;
+    box-shadow: 10px 10px;
+    margin: 5px 5px 5px 5px;
+
+}
+
+.form {
+    display: inline-block;
+    font-family: "Open Sans Condensed", sans-serif;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid lightpink ;
+    margin-top: 100px;
+    padding: 15px 15px 15px 15px;
+}
+
+.text-area {
+    margin-top: 15px;
+}
+
+
+.topnav {
+    background-color: powderblue;
+    overflow: hidden;
+    font-family: 'Coiny', cursive;
+
+}
+
+.topnav a {
+    float: center;
+    display: flex;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: white;
+    color: powderblue;
+}
+
+
+.active {
+    background-color: powderblue;
+    color: white;
+}
+
+.topnav .icon {
+    display: none;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+
+}
+
+.link{
+    display: flex;
+    font-family: 'Open Sans Condensed', sans-serif;
+    padding-top: 100px;
+    justify-content: center;
+
+}
+
+.link-hover a:hover{
+    font-size: 17px;
+    color: lightpink;
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-decoration: line-through;
+}
+
+
+
+
+@media screen and (orientation: portrait) {
+    .img {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    }
+}
+
+@media screen and (orientation: landscape) {
+    .img {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: row;
+    }
+
+    }
